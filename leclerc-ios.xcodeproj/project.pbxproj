@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00295F3121D1583D007722CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00295F3021D1583D007722CE /* AppDelegate.swift */; };
+		00295F3321D1583D007722CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00295F3221D1583D007722CE /* ViewController.swift */; };
+		00295F3621D1583D007722CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00295F3421D1583D007722CE /* Main.storyboard */; };
+		00295F3821D1583D007722CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00295F3721D1583D007722CE /* Assets.xcassets */; };
+		00295F3B21D1583D007722CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00295F3921D1583D007722CE /* LaunchScreen.storyboard */; };
+		00295F4321D158B0007722CE /* WarningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00295F4221D158B0007722CE /* WarningViewController.swift */; };
+		00295F4521D15F1F007722CE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00295F4421D15F1F007722CE /* Extensions.swift */; };
+		00295F4921D16008007722CE /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00295F4821D16008007722CE /* HomeController.swift */; };
+		00295F4B21D16041007722CE /* SliderHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00295F4A21D16041007722CE /* SliderHomeController.swift */; };
+		00295F4F21D25C36007722CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00295F4E21D25C36007722CE /* GoogleService-Info.plist */; };
+		00295F5121D262EB007722CE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00295F5021D262EB007722CE /* CoreLocation.framework */; };
+		00A1F5B821D50ADA00141296 /* SalopeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1F5B721D50ADA00141296 /* SalopeController.swift */; };
+		718461F5F67E7A7220C8F85C /* Pods_leclerc_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396FA3DEC82090283289B52D /* Pods_leclerc_ios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00295F2D21D1583D007722CE /* leclerc-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "leclerc-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00295F3021D1583D007722CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00295F3221D1583D007722CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00295F3521D1583D007722CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00295F3721D1583D007722CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00295F3A21D1583D007722CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00295F3C21D1583D007722CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00295F4221D158B0007722CE /* WarningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningViewController.swift; sourceTree = "<group>"; };
+		00295F4421D15F1F007722CE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		00295F4821D16008007722CE /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		00295F4A21D16041007722CE /* SliderHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderHomeController.swift; sourceTree = "<group>"; };
+		00295F4E21D25C36007722CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		00295F5021D262EB007722CE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		00A1F5B721D50ADA00141296 /* SalopeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalopeController.swift; sourceTree = "<group>"; };
+		28F08616DF2E3621182ADE45 /* Pods-leclerc-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leclerc-ios.debug.xcconfig"; path = "Target Support Files/Pods-leclerc-ios/Pods-leclerc-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		396FA3DEC82090283289B52D /* Pods_leclerc_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_leclerc_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCE5A23F9C3E67CEF6A3C66 /* Pods-leclerc-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leclerc-ios.release.xcconfig"; path = "Target Support Files/Pods-leclerc-ios/Pods-leclerc-ios.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00295F2A21D1583D007722CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00295F5121D262EB007722CE /* CoreLocation.framework in Frameworks */,
+				718461F5F67E7A7220C8F85C /* Pods_leclerc_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00295F2421D1583D007722CE = {
+			isa = PBXGroup;
+			children = (
+				00295F2F21D1583D007722CE /* leclerc-ios */,
+				00295F2E21D1583D007722CE /* Products */,
+				76309CACAF30A78E580D5963 /* Pods */,
+				57C252D381356C1DA0C561DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00295F2E21D1583D007722CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00295F2D21D1583D007722CE /* leclerc-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00295F2F21D1583D007722CE /* leclerc-ios */ = {
+			isa = PBXGroup;
+			children = (
+				00295F4C21D257F3007722CE /* Ressources */,
+				00295F3021D1583D007722CE /* AppDelegate.swift */,
+				00295F4721D15F5D007722CE /* Helpers */,
+				00295F4621D15F27007722CE /* Controllers */,
+				00295F3421D1583D007722CE /* Main.storyboard */,
+				00295F4E21D25C36007722CE /* GoogleService-Info.plist */,
+				00295F3721D1583D007722CE /* Assets.xcassets */,
+				00295F3921D1583D007722CE /* LaunchScreen.storyboard */,
+				00295F3C21D1583D007722CE /* Info.plist */,
+			);
+			path = "leclerc-ios";
+			sourceTree = "<group>";
+		};
+		00295F4621D15F27007722CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				00295F3221D1583D007722CE /* ViewController.swift */,
+				00295F4221D158B0007722CE /* WarningViewController.swift */,
+				00295F4A21D16041007722CE /* SliderHomeController.swift */,
+				00295F4821D16008007722CE /* HomeController.swift */,
+				00A1F5B721D50ADA00141296 /* SalopeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		00295F4721D15F5D007722CE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				00295F4421D15F1F007722CE /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		00295F4C21D257F3007722CE /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				00295F4D21D257FE007722CE /* Fonts */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		00295F4D21D257FE007722CE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		57C252D381356C1DA0C561DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00295F5021D262EB007722CE /* CoreLocation.framework */,
+				396FA3DEC82090283289B52D /* Pods_leclerc_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76309CACAF30A78E580D5963 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28F08616DF2E3621182ADE45 /* Pods-leclerc-ios.debug.xcconfig */,
+				6DCE5A23F9C3E67CEF6A3C66 /* Pods-leclerc-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00295F2C21D1583D007722CE /* leclerc-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00295F3F21D1583D007722CE /* Build configuration list for PBXNativeTarget "leclerc-ios" */;
+			buildPhases = (
+				B7913B0592DBA221587DE4C4 /* [CP] Check Pods Manifest.lock */,
+				00295F2921D1583D007722CE /* Sources */,
+				00295F2A21D1583D007722CE /* Frameworks */,
+				00295F2B21D1583D007722CE /* Resources */,
+				2CF629C0805599BEC9425B51 /* [CP] Embed Pods Frameworks */,
+				A61BBB68BBFE191D48E2C988 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leclerc-ios";
+			productName = "leclerc-ios";
+			productReference = 00295F2D21D1583D007722CE /* leclerc-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00295F2521D1583D007722CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Armel Cantin";
+				TargetAttributes = {
+					00295F2C21D1583D007722CE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 00295F2821D1583D007722CE /* Build configuration list for PBXProject "leclerc-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00295F2421D1583D007722CE;
+			productRefGroup = 00295F2E21D1583D007722CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00295F2C21D1583D007722CE /* leclerc-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00295F2B21D1583D007722CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00295F3B21D1583D007722CE /* LaunchScreen.storyboard in Resources */,
+				00295F4F21D25C36007722CE /* GoogleService-Info.plist in Resources */,
+				00295F3821D1583D007722CE /* Assets.xcassets in Resources */,
+				00295F3621D1583D007722CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CF629C0805599BEC9425B51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-leclerc-ios/Pods-leclerc-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/CoreCharts/CoreCharts.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreCharts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-leclerc-ios/Pods-leclerc-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A61BBB68BBFE191D48E2C988 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-leclerc-ios/Pods-leclerc-ios-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-leclerc-ios/Pods-leclerc-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7913B0592DBA221587DE4C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-leclerc-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00295F2921D1583D007722CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00295F4321D158B0007722CE /* WarningViewController.swift in Sources */,
+				00295F3321D1583D007722CE /* ViewController.swift in Sources */,
+				00295F3121D1583D007722CE /* AppDelegate.swift in Sources */,
+				00A1F5B821D50ADA00141296 /* SalopeController.swift in Sources */,
+				00295F4521D15F1F007722CE /* Extensions.swift in Sources */,
+				00295F4921D16008007722CE /* HomeController.swift in Sources */,
+				00295F4B21D16041007722CE /* SliderHomeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00295F3421D1583D007722CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00295F3521D1583D007722CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00295F3921D1583D007722CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00295F3A21D1583D007722CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00295F3D21D1583D007722CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00295F3E21D1583D007722CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00295F4021D1583D007722CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F08616DF2E3621182ADE45 /* Pods-leclerc-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F867QL77MA;
+				INFOPLIST_FILE = "leclerc-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "armelcantin.leclerc-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00295F4121D1583D007722CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DCE5A23F9C3E67CEF6A3C66 /* Pods-leclerc-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F867QL77MA;
+				INFOPLIST_FILE = "leclerc-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "armelcantin.leclerc-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00295F2821D1583D007722CE /* Build configuration list for PBXProject "leclerc-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00295F3D21D1583D007722CE /* Debug */,
+				00295F3E21D1583D007722CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00295F3F21D1583D007722CE /* Build configuration list for PBXNativeTarget "leclerc-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00295F4021D1583D007722CE /* Debug */,
+				00295F4121D1583D007722CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00295F2521D1583D007722CE /* Project object */;
+}
