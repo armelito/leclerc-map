@@ -119,7 +119,10 @@ class WarningViewController: UIViewController {
     private func setupImage() {
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        imageView.topAnchor.constraint(equalTo: titlelabel.bottomAnchor, constant: 35).isActive = true
+        imageView.topAnchor.constraint(equalTo: titlelabel.bottomAnchor, constant: 100).isActive = true
+        imageView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 45).isActive = true
+        imageView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -45).isActive = true
+        imageView.heightAnchor.constraint(equalToConstant: 200).isActive = true
     }
     
     private func setupButton() {

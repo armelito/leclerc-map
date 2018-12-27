@@ -62,11 +62,11 @@ class SliderHomeController: UIViewController, UIScrollViewDelegate {
             var title: String
             var text: String
         }
-        let slide0 = Slide(img: "beer", title: "Never fear", text: "Thanks to our party mode, follow your alcohol level in real time and receive tips to better manage it")
+        let slide0 = Slide(img: "logo-producteur-ios", title: "Rencontre producteur", text: "Grâce à notre mode évènement, prenez plaisir à suivre, découvrir, rencontrer nos meilleurs producteurs")
         
-        let slide1 = Slide(img: "grow", title: "Follow your drinks", text: "Use our calendar and statistics to track your alcohol consumption and start reducing it")
+        let slide1 = Slide(img: "dollar-symbol-ios", title: "Scan intelligent", text: "Grâce à notre mode scan, vous pouvez maintenant générer votre code barre")
         
-        let slide2 = Slide(img: "security", title: "Stay Safe", text: "Thanks to our emergency page, go home, block your credit card or call urgency numbers easily")
+        let slide2 = Slide(img: "piggy-bank-ios", title: "Profil", text: "Grâce à notre mode profile, vous pouvez vous connecter aux kiosques en magasin et accéder à toutes vos informations")
         
         var slides: [Slide] = [slide0,slide1,slide2]
         
